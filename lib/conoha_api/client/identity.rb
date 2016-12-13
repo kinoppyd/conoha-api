@@ -18,7 +18,7 @@ module ConohaApi
           }
         }
 
-        post "tokens", request_json, no_auth: true
+        post "/v2.0/tokens", request_json, no_auth: true
       end
     end
   end
