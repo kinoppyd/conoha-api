@@ -1,4 +1,3 @@
-require 'conoha_api/client/base'
 
 module ConohaApi
   class Client
